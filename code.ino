@@ -28,7 +28,7 @@ void loop(){
   if ((IR0 == 0) && (IR1 == 1)){
     controll[0] += 1;
     delay(100);
-  }else if ((IR0 == 1) && (IR1 == 0) && (controll[0] > 0){
+  }else if ((IR0 == 1) && (IR1 == 0) && (controll[0] > 0)){
     controll[0] -= 1;
     delay(100);
   }
